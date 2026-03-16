@@ -51,17 +51,17 @@ const reflectionFbo = regl.framebufferCube(1024)
  */
 const textures = [
   {
-    texture: Texture(regl, 'logo.png'),
+    texture: Texture(regl, 'logo.svg'),
     typeId: ContentTypes.RAINBOW,
     maskId: CubeMasks.M1,
   },
   {
-    texture: Texture(regl, 'logo.png'),
+    texture: Texture(regl, 'logo.svg'),
     typeId: ContentTypes.BLUE,
     maskId: CubeMasks.M2,
   },
   {
-    texture: Texture(regl, 'logo.png'),
+    texture: Texture(regl, 'logo.svg'),
     typeId: ContentTypes.RED,
     maskId: CubeMasks.M3,
   },
