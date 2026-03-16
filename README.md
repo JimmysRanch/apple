@@ -14,6 +14,14 @@ Demo for the tutorial on how to re-create the Apple Fifth Avenue cube animation 
 - Run `npm run dev` to launch the dev mode
 - Run `npm run build` to generate the built
 
+## Deploy to Vercel
+
+This project builds to the static `dist` directory, so it can be deployed on Vercel as a static site. The repository now includes a `vercel.json` file that tells Vercel to:
+
+- install dependencies with `npm ci`
+- build with `npm run build`
+- publish the generated `dist` directory
+
 ## Credits
 
 [regl-project](https://github.com/regl-project/regl)
